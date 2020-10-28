@@ -12,9 +12,11 @@ public class JmsConfig {
 
     public static final String BREWING_REQUEST_QUEUE = "brewing-request";
     public static final String INVENTORY_QUEUE = "inventory-queue";
+    public static final String ALLOCATE_ORDER_QUEUE = "allocate-order";
+    public static final String ALLOCATE_ORDER_RESPONSE_QUEUE = "allocate-order";
 
     @Bean
-    public MessageConverter messageConverter(ObjectMapper objectMapper){
+    public MessageConverter messageConverter(ObjectMapper objectMapper) {
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
 
         converter.setTargetType(MessageType.TEXT);
