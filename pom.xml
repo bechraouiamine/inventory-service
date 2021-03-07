@@ -18,6 +18,10 @@
 
     <description>MSSC Beer Inventory Service</description>
 
+    <properties>
+        <docker.image.prefix>abechraoui</docker.image.prefix>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
