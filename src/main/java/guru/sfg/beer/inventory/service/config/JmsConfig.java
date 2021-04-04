@@ -13,7 +13,7 @@ public class JmsConfig {
     public static final String BREWING_REQUEST_QUEUE = "brewing-request";
     public static final String INVENTORY_QUEUE = "inventory-queue";
     public static final String ALLOCATE_ORDER_QUEUE = "allocate-order";
-    public static final String ALLOCATE_ORDER_RESPONSE_QUEUE = "allocate-order";
+    public static final String ALLOCATE_ORDER_RESPONSE_QUEUE = "allocate-order-response";
     public static final String DEALLOCATE_ORDER_QUEUE = "deallocate-order";
 
     @Bean
